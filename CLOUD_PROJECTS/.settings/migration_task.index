@@ -1,5 +1,10 @@
 {
   "migrationTask" : [ {
+    "id" : "org.talend.designer.core.generic.model.migration.ChangeDBConnectionToJDBCTypeMigrationTask",
+    "breaks" : "8.0.0",
+    "version" : "8.0.1",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.designer.core.generic.model.migration.ChangeDriverJarForProjectSetting",
     "breaks" : "7.0.1",
     "version" : "7.0.1",
@@ -139,6 +144,16 @@
     "breaks" : "6.0.1",
     "version" : "6.0.2",
     "status" : "noimpact"
+  }, {
+    "id" : "org.talend.designer.publish.cloud.RenameActionComponents",
+    "breaks" : "6.4.0",
+    "version" : "6.5.0",
+    "status" : "ok"
+  }, {
+    "id" : "org.talend.designer.publish.cloud.RenameActionRejectComponent",
+    "breaks" : "7.0.0",
+    "version" : "7.0.1",
+    "status" : "ok"
   }, {
     "id" : "org.talend.designer.xmlmap.migration.TXMLMapChangeAllInOneValueMigrationTask",
     "breaks" : "5.1.1",
@@ -655,6 +670,11 @@
     "version" : "7.0.2",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.repository.model.migration.ApplySecurityAfterAdvancedKafkaProperties",
+    "breaks" : "8.0.0",
+    "version" : "8.0.1",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask",
     "breaks" : "5.1.1",
     "version" : "5.1.2",
@@ -698,6 +718,11 @@
     "id" : "org.talend.repository.model.migration.ChangeComponentSettingNameMigrationTask",
     "breaks" : "5.5.2",
     "version" : "5.6.2",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.model.migration.ChangeConnectionType4tSAPADSOInput",
+    "breaks" : "8.0.0",
+    "version" : "8.0.1",
     "status" : "noimpact"
   }, {
     "id" : "org.talend.repository.model.migration.ChangeDBName4Hive",
@@ -1249,6 +1274,11 @@
     "version" : "5.1.2",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.repository.model.migration.FixProjectResourceLink",
+    "breaks" : "5.1.1",
+    "version" : "5.1.2",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.repository.model.migration.FixUnevenItemContextParametersMigrationTask",
     "breaks" : "6.1.0",
     "version" : "6.4.0",
@@ -1396,6 +1426,11 @@
   }, {
     "id" : "org.talend.repository.model.migration.RedshiftLogFileMigrationTask",
     "version" : "7.2.1",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.model.migration.RedshiftVersion2MigrationTask",
+    "breaks" : "8.0.0",
+    "version" : "8.0.1",
     "status" : "noimpact"
   }, {
     "id" : "org.talend.repository.model.migration.RelationShipIndexMigrationTask",
@@ -2018,6 +2053,11 @@
     "id" : "org.talend.repository.model.migration.WriteJSONQuoteAllValuesMigrationTask",
     "breaks" : "7.0.1",
     "version" : "7.0.1",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.model.migration.XSLTCheckCacheFileInMemoryTask",
+    "breaks" : "8.0.0",
+    "version" : "8.0.1",
     "status" : "noimpact"
   }, {
     "id" : "org.talend.repository.model.migration.addQuot",
